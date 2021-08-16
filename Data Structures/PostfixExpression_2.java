@@ -14,18 +14,16 @@ public class PostfixExpression_2 {
         int N = Integer.parseInt(br.readLine());
         String str = br.readLine();
 
-
         for (int i = 0; i < str.length(); i++) {
             char temp = str.charAt(i);
 
-            if ('A' <= temp && temp <= 'Z') {
+            if ('A' <= temp && temp <= 'Z'&& map.containsKey(temp) == false) {
                 map.put(temp, Integer.parseInt(br.readLine()));
             }
         }
 
-
-        for (int j = 0; j < str.length(); j++) {
-            char ch = str.charAt(j);
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
 
             if ('A' <= ch && ch <= 'Z') {
                 stack.push((double) map.get(ch));
@@ -59,10 +57,8 @@ public class PostfixExpression_2 {
 
             }
         }
-        bw.write(String.format("%.3f",stack.pop()) + "\n");
+        bw.write(String.format("%.2f",stack.pop()));
         bw.flush();
 
     }
-
-
 }

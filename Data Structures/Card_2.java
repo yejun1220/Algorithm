@@ -23,5 +23,6 @@ public class Card_2 {
         }
 
         System.out.println(q.poll());
+        bufferedReader.close();
     }
 }
