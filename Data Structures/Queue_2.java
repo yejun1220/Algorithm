@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Queue2 {
+public class Queue_2 {
 
     public static void main(String[] args) throws IOException {
         Deque<Integer> queue = new LinkedList<>();

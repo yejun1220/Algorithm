@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class Stack1 {
+public class Stack_1 {
 
     public static void main(String[] args) throws IOException {
         Stack<Integer> stack = new Stack<Integer>();
