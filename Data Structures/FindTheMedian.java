@@ -56,5 +56,4 @@ public class FindTheMedian {
         bw.close();
         br.close();
     }
- 
 }
