@@ -9,7 +9,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class algorithm {
+public class Queue_1 {
     public static void main(String[] args) throws IOException{
         Deque<Integer> queue = new LinkedList<>();
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
