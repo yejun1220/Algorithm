@@ -1,3 +1,5 @@
+// https://www.acmicpc.net/problem/17225
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -5,7 +7,8 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class Main {
+
+public class Sehun_Gift_Shop {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         PriorityQueue<Order> priorityQueue = new PriorityQueue<>();
