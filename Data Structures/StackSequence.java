@@ -21,7 +21,8 @@ class StackSequence {
         stack.push(i);
         sb.append('+').append('\n');
 
-        while (!stack.empty() && stack.peek() == list.get(j)) { // 스택의 끝만 확인
+        while (!stack.empty() && stack.peek().equals(list.get(j))) { // 스택의 끝만 확인
+          // stack.peek()과 list.get()은 반환 타입이 (primitive tyoe)Integer로
             stack.pop();
             sb.append('-').append('\n');
             j++;
